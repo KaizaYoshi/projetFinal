@@ -1,0 +1,293 @@
+* { box-sizing: border-box; }
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #a5a5a5;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+header{
+    width: 100%;
+    height: 10%;
+    background: linear-gradient(to bottom, #3a3a3a 0%,#212121 100%);
+    padding: 2% 0;
+    text-align: center;
+    color: white;
+}
+
+#menu, #adminMenu{
+    width: 80%;
+    display: flex;
+    margin: 0 auto 0.5% auto;
+    background-color: #373737;
+    color: white;
+    padding: 1% 0;
+}
+
+.menu, .admin{
+    width: 20%;
+    text-align: center;
+}
+
+.menuVisitor, .members{
+    width: 33%;
+    text-align: center;
+}
+
+#main{
+    margin: 0 auto;
+    width: 80%;
+    padding: 1% 0;
+    background-color: white;
+    border-radius: 10px;
+}
+
+h1{
+    margin: 0;
+}
+
+#presentation{
+    background-color: #a5a5a5;
+    width: 80%;
+    font-size: 20px;
+    margin: 0.5% auto;
+    padding: 1% 0;
+    text-align: center;
+
+}
+
+.form{
+    width: 50%;
+    margin: 0 auto 5% auto;
+}
+
+h2{
+    text-align: center;
+}
+
+.form>h2{
+    text-align: center;
+}
+
+.icon{
+    width: 10%;
+    background-color: #373737;
+    text-align: center;
+    color: white;
+    padding: 1%;
+}
+
+.formBlock{
+    width: 100%;
+    margin: 0 auto 15px auto;
+}
+
+.input-field {
+    width: 85%;
+    padding: 1%;
+
+    outline: none;
+}
+
+.form>.btn{
+    background-color: #373737;
+    color: white;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+ul{
+    text-align: center;
+    font-size: 17px;
+    padding: 0;
+
+}
+
+li{
+    text-align: left;
+    width: 100%;
+    margin : 0 25%;
+    padding: 0;
+}
+
+.success{
+    color: darkgreen;
+    font-weight: bolder;
+}
+
+.failure{
+    color: darkred;
+    font-weight: bolder;
+}
+
+#hiddenID{
+    display: none;
+}
+
+
+.autocomplete {
+    /*the container must be positioned relative:*/
+    position: relative;
+    display: inline-block;
+}
+input {
+    border: 1px solid transparent;
+    background-color: #f1f1f1;
+    padding: 10px;
+    font-size: 16px;
+}
+input[type=text] {
+    background-color: #f1f1f1;
+    width: 100%;
+}
+input[type=submit] {
+    background-color: #000000;
+    color: #fff;
+}
+.autocomplete-items {
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    border-bottom: none;
+    border-top: none;
+    z-index: 99;
+    /*position the autocomplete items to be the same width as the container:*/
+    top: 100%;
+    left: 0;
+    right: 0;
+}
+.autocomplete-items div {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    border-bottom: 1px solid #d4d4d4;
+}
+.autocomplete-items div:hover {
+    /*when hovering an item:*/
+    background-color: #e9e9e9;
+}
+.autocomplete-active {
+    /*when navigating through the items using the arrow keys:*/
+    background-color: #000000 !important;
+    color: #ffffff;
+}
+
+.createForm{
+    margin: 1% 1%;
+    text-align: center;
+}
+
+.pkmContainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 1% auto;
+    border: black 2px solid;
+}
+
+.highBlock{
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    margin: 1% auto;
+    border-bottom: 2px black solid;
+    padding-bottom: 1%;
+    height: 25%;
+}
+
+.imageContainer{
+    width: 50%;
+    height: 50%;
+    text-align: center;
+}
+
+.imageContainer > img{
+    width: 50%;
+}
+
+.semiBlock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    text-align: center;
+}
+
+.semiBlock > img{
+    margin-right: 2%;
+    height: 35%;
+}
+
+.name{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.rightBlock{
+    width: 40%;
+    text-align: left;
+    padding: 2% 2%;
+    font-size: 23px;
+
+    display: flex;
+    align-items: center;
+}
+
+.left{
+    text-align: right;
+    width: 50%;
+    margin-right: 3%;
+    font-weight: bold;
+
+
+}
+
+.right{
+    text-align: left;
+    width: 50%;
+
+}
+
+.listContainer{
+    width: 80%;
+    margin: 1% auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.mainController{
+    width: 19%;
+    border: 2px solid #A5A5A5;
+    border-radius: 10px;
+    text-align: center;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 1%;
+}
+
+
+.mainController > img {
+    width: 75%;
+}
+
+
+.tg  {border-collapse:collapse;border-color: #000000;border-spacing:0;margin: 1% auto;}
+.tg td{background-color:#EBF5FF;border-color: #000000;border-style:solid;border-width:1px;color:#444;
+    font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;text-align: center}
+.tg th{background-color: #373737;border-color: #000000;border-style:solid;border-width:1px;color:#fff;
+    font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-wp8o{border-color:#000000;text-align:center;vertical-align:top}
+.tg .tg-fam6{border-color:#000000;text-align:center;text-decoration:underline;vertical-align:top}
+.tg .tg-3sla{background-color: #d7d7d7;border-color:#000000;text-align:center;text-decoration:underline;vertical-align:top}
+.tg .tg-8a48{background-color: #d7d7d7;border-color:#000000;text-align:center;vertical-align:top}
