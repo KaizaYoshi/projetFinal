@@ -49,6 +49,9 @@
             case 'deleteUser':
                 require "views/deleteUsers.php";
                 break;
+            case 'deletePokemon':
+                require "views/deletePokemon.php";
+                break;
             case 'contentGestion':
                 require "views/contentGestion.php";
                 break;

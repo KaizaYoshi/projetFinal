@@ -1,8 +1,5 @@
 <?php
 require "controllers/readUsers.php";
-
-$id = $_GET["id"];
-
 ?>
 
 <div id="presentation">Administrateur - Gestion des utilisateurs</div>
