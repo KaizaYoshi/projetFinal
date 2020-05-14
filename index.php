@@ -55,6 +55,9 @@
             case 'contentGestion':
                 require "views/contentGestion.php";
                 break;
+            case 'topicsList':
+                require "views/topicsList.php";
+                break;
             default:
                 require "views/default.php";
                 break;
