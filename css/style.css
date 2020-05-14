@@ -128,7 +128,7 @@ li{
     font-weight: bolder;
 }
 
-#hiddenID{
+#hiddenID,#hiddenUser{
     display: none;
 }
 

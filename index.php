@@ -43,6 +43,9 @@
             case 'updateUser':
                 require "views/updateUser.php";
                 break;
+            case 'updatePokemon':
+                require "views/updatePokemon.php";
+                break;
             case 'deleteUser':
                 require "views/deleteUsers.php";
                 break;
