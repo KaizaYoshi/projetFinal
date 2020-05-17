@@ -20,22 +20,39 @@ header{
     color: white;
 }
 
+
 #menu, #adminMenu{
     width: 80%;
     display: flex;
-    margin: 0 auto 0.5% auto;
+    margin: 0 auto 1% auto;
     background-color: #373737;
     color: white;
     padding: 1% 0;
 }
 
-.menu, .admin{
+.menu{
     width: 20%;
     text-align: center;
 }
 
-.menuVisitor, .members{
+.menu, .admin{
+    width: 21%;
+    text-align: center;
+}
+
+
+.menuVisitor{
     width: 33%;
+    text-align: center;
+}
+
+.members{
+    width: 27%;
+    text-align: center;
+}
+
+.bar{
+    width: 5%;
     text-align: center;
 }
 
@@ -280,6 +297,31 @@ input[type=submit] {
 .mainController > img {
     width: 75%;
 }
+
+#research{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#search{
+    width: 100%;
+}
+
+#searchArea{
+    width: 80%;
+    margin: 1% auto;
+    text-align: center;
+}
+
+#searchButton{
+    padding: 0.9%;
+    width: 10%;
+    color: white;
+    background-color: black;
+    font-weight: bolder;
+    font-style: italic;
+}
+
 
 
 .tg  {border-collapse:collapse;border-color: #000000;border-spacing:0;margin: 1% auto;}

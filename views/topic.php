@@ -5,7 +5,11 @@ $topics = readMessages($id);
 echo "<input id='hiddenID' value='$id'>";
 
 while ($row = $topics->fetch()):
+    $messageID = $row['ID_message'];
     echo $row["name"] . " le " . date("d/m/Y - H:i:s", $row["date_message"]) . "<br>";
+    if ($_SESSION["id"] == $row["author_message"] || $_SESSION["role"] !== "Membre" || isset($_SESSION["id"])):
+        echo "<a href='index.php?action=gestionMessages&id=$messageID'>Gestion du message</a>";
+    endif;
     echo $row["message_topic"];
 endwhile;
 

@@ -12,6 +12,7 @@ endif;
 
 ?>
 <div id="presentation">Gestion des Pokémon</div>
+<?php require "views/headerAdmin.php" ?>
 <table class="tg" style="undefined;table-layout: fixed; width: 80%">
     <colgroup>
         <col style="width: 5%">

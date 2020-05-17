@@ -35,7 +35,7 @@
 <div id="abilities" class="createForm">
     <div>Choisissez un objet</div>
     <div class="autocomplete" style="width:300px;">
-        <input id="item" type="text" placeholder="Nom du l'objet">
+        <input id="item" type="text" placeholder="Nom de l'objet">
     </div>
 </div>
 <div id="abilities" class="createForm">

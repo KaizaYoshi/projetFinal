@@ -13,7 +13,7 @@
         <div class="menu"><a href="index.php?action=forum">Forum</a></div>
         <div class="menu"><a href="index.php?action=disconnect">Déconnexion</a></div>
     <?php else: ?>
-        <div class="menuVisitor">Explorer</div>
+        <div class="menuVisitor"><a href="index.php?action=search">Rechercher</a></div>
         <div class="menuVisitor"><a href="index.php?action=forum">Forum</a></div>
         <div class="menuVisitor"><a href="index.php?action=login">Connexion & Inscription</a></div>
     <?php endif;

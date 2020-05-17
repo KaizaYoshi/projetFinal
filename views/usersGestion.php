@@ -3,6 +3,7 @@ require "controllers/readUsers.php";
 ?>
 
 <div id="presentation">Administrateur - Gestion des utilisateurs</div>
+<?php require "views/headerAdmin.php" ?>
 
 <table class="tg" style="undefined;table-layout: fixed; width: 80%">
     <colgroup>
